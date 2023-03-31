@@ -1,0 +1,89 @@
+/* cadastro.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: linear-gradient(to bottom, #927fc1, #260185);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+   
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .button {
+    background-color: #260185;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #927fc1;
+  }
+  
+  .signup-link {
+    text-decoration: none;
+  }
+  
+  .signup-button {
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.signup-button:hover {
+    background-color: #927fc1;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }

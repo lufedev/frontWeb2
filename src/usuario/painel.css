@@ -1,0 +1,79 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.painel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .painel-titulo {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #260185;
+    text-shadow: 2px 2px #927fc1;
+  }
+  
+  .painel-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .painel-botoes button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #260185;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .painel-botoes-sair {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .painel-botoes-sair button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #260185;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .painel-botoes button:hover {
+    background-color: #927fc1;
+  }
+  .painel-botoes-sair button:hover {
+    background-color: #ff000d;
+  }
+  
+  .painel-tabela {
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .refresh {
+    width: 5%;
+  }
+
+  .background-panel{
+    background: rgba(57, 55, 105, 0.301);
+
+border-radius: 50px
+  }

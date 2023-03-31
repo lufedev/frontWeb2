@@ -1,0 +1,69 @@
+form {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.input {
+  background-color: aliceblue;
+  text-align: center;
+  text-shadow: #927fc1;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.add{
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 50px;
+  height: 30px;
+ }
+
+ .painel-botoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.painel-botoes button {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #260185;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.painel-botoes button:hover {
+  background-color: #927fc1;
+}
+.erroMsg{
+    -webkit-text-stroke: 0.2px #000000;
+  
+}
+input {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  background: rgb(148,233,202);
+background: linear-gradient(90deg, rgba(148, 233, 202, 0.26) 0%, rgba(237,238,174,0.38139005602240894) 100%);
+  border: 1px solid gray;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #4CAF50;
+}
